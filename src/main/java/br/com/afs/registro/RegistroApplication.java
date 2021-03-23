@@ -12,7 +12,7 @@ import br.com.afs.registro.entities.Contato;
 @SpringBootApplication
 public class RegistroApplication {
 
-public static void main(String[] args)		 {
+	public static void main(String[] args) {
 		SpringApplication.run(RegistroApplication.class, args);
 		System.out.println("testes rodando run");
 	}

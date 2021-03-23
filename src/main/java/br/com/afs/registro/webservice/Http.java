@@ -16,7 +16,6 @@ public class Http {
 
 	private final String USER_AGENT = "Mozilla/5.0";
 
-	// HTTP GET request
 	public StringBuffer sendGet(String url) throws Exception {
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -38,7 +37,6 @@ public class Http {
 		return response;
 	}
 
-	// HTTP POST request
 	public StringBuffer sendMethod(String url, String parametros, String method) throws Exception {
 		URL obj = new URL(null, url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();

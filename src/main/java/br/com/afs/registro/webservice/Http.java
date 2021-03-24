@@ -5,12 +5,8 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
 
 import javax.net.ssl.HttpsURLConnection;
-
-import br.com.afs.registro.controller.ContatoController;
-import br.com.afs.registro.entities.Contato;
 
 public class Http {
 

@@ -8,7 +8,7 @@ Executar (RUN) classe "RegistroApplication";
 Efetuar as consultas ao banco de dados no endereço:
 http://localhost:8080/contatos/
 
-No postman:
+Para efetuar as requisições no postman:
 - request com GET
 busca todos os contatos: sendGET http://localhost:8080/contatos
 busca contato por id: sendGET http://localhost:8080/contatos/1
